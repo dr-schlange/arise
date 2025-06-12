@@ -8,8 +8,10 @@ Frankly, the configuration annoyance of GitHub Pages with multiple hosted sites 
 
 1. Name your repo to **yourusername.github.io**. 
 2. Navigate to your repo and click **Settings** in the navbar.
-3. Click **Pages** in the sidebar.
-4. Under the dropdown for **Source**, click **Deploy from a branch**.
-5. Select the `html` branch. Leave `/ (root)` as the folder and click **Save**.
+3. Click/open **Actions** in the sidebar and select **General**.
+4. Under the section **Workflow permissions**, check **Read and write permissions**.
+5. Click **Pages** in the sidebar.
+6. Under the dropdown for **Source**, click **Deploy from a branch**.
+7. Select the `html` branch. Leave `/ (root)` as the folder and click **Save**.
 
 Congrats! Your Arise website is now live on GitHub Pages. If you'd like to use a custom domain, please review GitHub's [custom domains guide](https://docs.github.com/articles/using-a-custom-domain-with-github-pages/) as that is outside of the scope of this documentation.
